@@ -1,0 +1,40 @@
+.home-container {
+  width: 800px;
+  margin: 10px auto 40px auto;
+  border: 1px solid rgb(139, 139, 139);
+  padding: 20px;
+  button {
+    height: 42px;
+    width: 120px;
+    background: purple;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    float: right;
+    outline: none;
+  }
+  .content-block {
+    img {
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+      margin-top: 60px;
+    }
+    h1 {
+      margin: 10px 0;
+    }
+    h3 {
+      font-size: 18px;
+      margin: 0;
+    }
+    h5 {
+      font-weight: normal;
+      font-size: 18px;
+    }
+    h6 {
+      font-size: 28px;
+      margin: 0 0 40px 0;
+    }
+  }
+}
