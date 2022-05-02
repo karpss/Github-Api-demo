@@ -4,12 +4,14 @@ import Home from "./components/Home";
 import Login from "./components/Login";
 import { initialState, reducer } from "./redux/index";
 
+
 export const GitHubAuthContext = createContext();
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
+    
     <GitHubAuthContext.Provider
       value={{
         state,
@@ -23,6 +25,8 @@ function App() {
         </Switch>
       </Router>
     </GitHubAuthContext.Provider>
+   
+    
   );
 }
 

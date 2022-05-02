@@ -4,13 +4,16 @@ import { GitHubAuthContext } from "../App";
 import "./Styles/Login.css";
 import Logo from "../Assets/Logo.png";
 
+
 export default function Login() {
+  
   const { state, dispatch } = useContext(GitHubAuthContext);
   const [data, setData] = useState({ errorMessage: "", isLoading: false });
 
   const { client_id, redirect_uri } = state;
 
   useEffect(() => {
+    
     
     const url = window.location.href;
     const hasCode = url.includes("?code=");
