@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Redirect } from "react-router-dom";
 import { GitHubAuthContext } from "../App";
-import "./Styles/Home.scss";
+import "./Styles/Home.css";
 import GithubRepos from "./UserRepos";
 
 export default function Home() {

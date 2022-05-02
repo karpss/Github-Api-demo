@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Styles/UserRepos.scss";
+import "./Styles/UserRepos.css";
 import { getUserRepo } from "../redux/repoSlice";
 import {useSelector, useDispatch} from 'react-redux';
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Redirect } from "react-router-dom";
 import { GitHubAuthContext } from "../App";
-import "./Styles/Login.scss";
+import "./Styles/Login.css";
 import Logo from "../Assets/Logo.png";
 
 export default function Login() {

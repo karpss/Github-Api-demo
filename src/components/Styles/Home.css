@@ -1,0 +1,38 @@
+.home-container {
+    width: 800px;
+    margin: 10px auto 40px auto;
+    border: 1px solid #8b8b8b;
+    padding: 20px;
+}
+.home-container button {
+    height: 42px;
+    width: 120px;
+    background: purple;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    float: right;
+    outline: none;
+}
+.home-container .content-block img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.home-container .content-block h1 {
+    margin: 10px 0;
+}
+.home-container .content-block h3 {
+    font-size: 18px;
+    margin: 0;
+}
+.home-container .content-block h5 {
+    font-weight: normal;
+    font-size: 18px;
+}
+.home-container .content-block h6 {
+    font-size: 28px;
+    margin: 0 0 40px 0;
+}
